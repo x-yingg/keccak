@@ -1,7 +1,5 @@
 `timescale 1ns / 1ps
 
-`timescale 1ns/1ps
-
 import pkg_keccak::*;
 
 module tb_keccak_two_stream_interleaved;
