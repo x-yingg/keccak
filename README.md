@@ -26,7 +26,7 @@ Two implementations were synthesised and compared:
 ## 2. Baseline vs. Interleaved Pipelined Implementation (2 Permutation)
 
 - **Baseline:** Conventional Keccak-f[1600] implementation.
-- **Interleaved Pipelined:** Two-stream interleaved architecture with a shared datapath and a register after Theta. The controller alternates between the two streams to improve datapath utilisation.
+- **Interleaved Pipelined:** Two-stream interleaved architecture with a shared datapath and a register after Theta. The controller alternates between the two streams to improve datapath utilisation. (Refer to /keccak_interleaved_2stagepipelined_2cycles)
 
 ### Timing Analysis
 
